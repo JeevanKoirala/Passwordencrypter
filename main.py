@@ -1,4 +1,4 @@
-# Define the substitution map
+
 password_lists = {
     'a': "02s", 'b': "eo2", 'c': "7hd", 'd': "93h", 'e': "h1m",
     'f': "ie4", 'g': "@qo0", 'h': "83h", 'i': "$H7", 'j': "1l*",
@@ -41,3 +41,6 @@ if __name__ == "__main__":
         print("Successfully opened the password")
     else:
         print("Oops! Unknown error occurred")
+
+
+    
