@@ -23,7 +23,7 @@ def decrypt_password(encrypted_password: str) -> str:
     for char in encrypted_password:
         temp += char
         if temp in reverse_map:
-            decrypted += reverse_map[temp]
+            decrypted += reverse_map[]
             temp = ""
     
     return decrypted
